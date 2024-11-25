@@ -1,0 +1,67 @@
+* {
+  margin: 4px;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  list-style: none;
+}
+
+.Lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagens {
+  margin-left: 20px;
+}
+
+.Banner {
+  background-image: url("images/Banner.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+.Banner_Container {
+}
+
+.Banner_Titulo {
+  color: white;
+  font-size: 40px;
+  margin-left: 80px;
+}
+
+.Banner_Titulo-Destaque {
+  color: cornflowerblue;
+  font-size: 80px;
+}
+.Fantasia {
+  font-size: 80px;
+}
+
+.Cartaz {
+  display: flex;
+}
+
+.Menu-List {
+  display: flex;
+}
+
+.Menu-List_Item {
+}
+
+.search{
+  background-image: url(images/search.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 800px;
+  margin: 0 auto;
+  display: block;
+  
+}
+
+.localização{
+  background-image: url(images/location_on.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+}
